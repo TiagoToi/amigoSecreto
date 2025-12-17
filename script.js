@@ -2,7 +2,7 @@
 let participants = [];
 let shuffledList = [];
 
-// Carrega os dados do servidor
+// Carrega os dados do servidor (que busca do JSONBin)
 async function loadGameData() {
     try {
         const response = await fetch('/api/game-data');
@@ -12,10 +12,11 @@ async function loadGameData() {
         renderPersonList();
     } catch (error) {
         console.error('Erro ao carregar dados:', error);
+        alert('Erro ao carregar o jogo. Recarregue a página.');
     }
 }
 
-// Salva os dados no servidor
+// Salva os dados no servidor (que salva no JSONBin)
 async function saveGameData() {
     try {
         await fetch('/api/game-data', {
@@ -30,6 +31,7 @@ async function saveGameData() {
         });
     } catch (error) {
         console.error('Erro ao salvar dados:', error);
+        alert('Erro ao salvar. Tente novamente.');
     }
 }
 
@@ -59,7 +61,7 @@ async function selectPerson(person, originalIndex) {
     // Marca como visualizado
     participants[originalIndex].hasViewed = true;
     
-    // Salva no servidor
+    // Salva no JSONBin via servidor
     await saveGameData();
     
     // Encontra quem essa pessoa deve presentear
