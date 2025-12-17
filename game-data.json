@@ -1,0 +1,71 @@
+{
+  "participants": [
+    {
+      "name": "Brunão",
+      "hasViewed": false
+    },
+    {
+      "name": "Buzziol",
+      "hasViewed": false
+    },
+    {
+      "name": "Be",
+      "hasViewed": false
+    },
+    {
+      "name": "Pipe",
+      "hasViewed": false
+    },
+    {
+      "name": "Duda",
+      "hasViewed": false
+    },
+    {
+      "name": "Gica",
+      "hasViewed": false
+    },
+    {
+      "name": "Rameco",
+      "hasViewed": false
+    },
+    {
+      "name": "Sassi",
+      "hasViewed": false
+    },
+    {
+      "name": "Sergio",
+      "hasViewed": false
+    },
+    {
+      "name": "Batata",
+      "hasViewed": false
+    },
+    {
+      "name": "Doce",
+      "hasViewed": false
+    },
+    {
+      "name": "Gar",
+      "hasViewed": false
+    },
+    {
+      "name": "Japonegro",
+      "hasViewed": false
+    }
+  ],
+  "shuffledList": [
+    "Sassi",
+    "Gica",
+    "Brunão",
+    "Japonegro",
+    "Gar",
+    "Be",
+    "Doce",
+    "Rameco",
+    "Pipe",
+    "Sergio",
+    "Duda",
+    "Buzziol",
+    "Batata"
+  ]
+}
