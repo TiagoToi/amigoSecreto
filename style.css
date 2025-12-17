@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    color: #667eea;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.person-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.person-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.person-btn:hover {
+    background: #764ba2;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.person-btn.selected {
+    background: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.result-screen {
+    text-align: center;
+}
+
+.result-screen h2 {
+    color: #667eea;
+    margin-bottom: 20px;
+}
+
+.gift-to {
+    background: #f0f0f0;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.gift-to p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.gift-to .name {
+    font-size: 2em;
+    color: #764ba2;
+    font-weight: bold;
+}
+
+.back-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-btn:hover {
+    background: #764ba2;
+}
+
+.hidden {
+    display: none;
+}

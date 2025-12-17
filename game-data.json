@@ -1,0 +1,46 @@
+{
+  "participants": [
+    {
+      "name": "João",
+      "hasViewed": true
+    },
+    {
+      "name": "Maria",
+      "hasViewed": true
+    },
+    {
+      "name": "Pedro",
+      "hasViewed": true
+    },
+    {
+      "name": "Ana",
+      "hasViewed": false
+    },
+    {
+      "name": "Carlos",
+      "hasViewed": false
+    },
+    {
+      "name": "Julia",
+      "hasViewed": true
+    },
+    {
+      "name": "Lucas",
+      "hasViewed": false
+    },
+    {
+      "name": "Fernanda",
+      "hasViewed": false
+    }
+  ],
+  "shuffledList": [
+    "Fernanda",
+    "João",
+    "Lucas",
+    "Carlos",
+    "Maria",
+    "Pedro",
+    "Ana",
+    "Julia"
+  ]
+}
